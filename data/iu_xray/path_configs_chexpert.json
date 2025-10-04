@@ -1,0 +1,6 @@
+{"train_label_path": "data/iu_xray/iu_id_labeled_front.csv",
+  "k_fold_path": "data/iu_xray/fold_5_14_chexpert/",
+  "train_img_path": "data/iu_xray/iu_front_images",
+  "test_img_path": "data/iu_xray/iu_front_images/",
+  "snapshot_path": "data/iu_xray/snapshot_path/"
+}
