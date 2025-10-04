@@ -44,7 +44,7 @@ Identifier splits for the five‐fold cross‐validation of the RAD-DINO classif
    --postprocess_json_file          data/iu_xray/iu_entities_relations_chexpert_plus_post.json \
    --error_report_file              data/iu_xray/iu_normalize_error_reports.json ' to extract relation from the report.
    
-   %If you want to replace the MIMIC data set, you only need to modify the path to the MIMIC data set
+   If you want to replace the MIMIC data set, you only need to modify the path to the MIMIC dataset
 
 
 3. **CheXpert Classification**:
@@ -95,9 +95,9 @@ Identifier splits for the five‐fold cross‐validation of the RAD-DINO classif
    --report_json data/iu_xray/iu_entities_relations_chexpert_plus_post.json \
    --output_json data/iu_xray/iu_kg_top5.json \ 
 
-   %If you want to replace the MIMIC data set, you only need to modify the path to the MIMIC data set
-r
-4. **Report Generation**:
+   If you want to replace the MIMIC data set, you only need to modify the path to the MIMIC dataset
+   
+5. **Report Generation**:
    Run python dsr1_main_mrg.py to generate reports.\
   --matches_file       data/iu_xray/iu_kg_top5.json \
   --report_train_file  data/iu_xray/iu_radiology_reports.json \
